@@ -1,0 +1,228 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url("helvetica-neue1.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Flex;
+	src: url("FlexDisplay-Thin.otf") format("opentype");
+}
+
+.fullwrap {
+	width: 100%;
+	background-color: black;
+}
+
+.midwrap {
+	width: 910px;
+	background-color: black;
+	height: 4000px;
+	margin: auto;
+}
+
+.spacer {
+	position: relative;
+	height: 50px;
+}
+
+.sitecircle {
+	position: relative;
+	width: 210px;
+	height: 210px;
+	border-radius: 50%;
+	background-color: dimgrey;
+	margin-bottom: 350px;
+}
+
+.one {
+	left: 50px;
+}
+
+.two {
+	left: 200px;
+}
+
+.three {
+	left: 350px;
+}
+
+.four {
+	left: 500px;
+}
+
+.five {
+	left: 650px;
+}
+
+.contentcircle {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	background-color: white;
+	margin: auto ;
+	top: 15px;
+
+	box-shadow: 0px 0px 20px white, 0px 0px 30px white, 0px 0px 5px inset, 0px 0px 3px white;
+}
+
+.connecterbar {
+	position: absolute;
+	width: 211px;
+	height: 575px;
+	background-color: black;
+}
+
+.oneleft {
+	left: -75px;
+	top: 95px;
+	transform:rotate(15.1deg);
+	-ms-transform:rotate(15.1deg); 
+	-webkit-transform:rotate(15.1deg); 
+}
+
+.oneright {
+	left: 74px; 
+	top: 95px;
+	transform:rotate(-14.9deg);
+	-ms-transform:rotate(-14.9deg); 
+	-webkit-transform:rotate(-14.9deg); 
+}
+
+.tworight {
+	left: 150px; 
+	height: 619px;
+	top: 75px;
+	transform:rotate(-28.15deg);
+	-ms-transform:rotate(-28.15deg); 
+	-webkit-transform:rotate(-28.15deg); 
+}
+
+.threeleft {
+	left: -225px; 
+	height: 720px;
+	top: 25px;
+	transform:rotate(38.8deg);
+	-ms-transform:rotate(38.8deg); 
+	-webkit-transform:rotate(38.8deg); 
+}
+
+.innerbar {
+	position: absolute;
+	height: 100%;
+	width: 33%;
+	margin-left: 32%;
+	background-color: black;
+	box-shadow: 0px 0px 30px 10px white, 0px 0px 0px 5px white inset, 0px 0px 30px 10px white inset;
+}
+
+.audiocollector {
+	background-image: url(acbw.png);
+}
+
+.audiocollector:hover{
+	background-image: url(ac.png);
+}
+
+.lisastack {
+	background-image: url(lisabw.png);
+}
+
+.lisastack:hover{
+	background-image: url(lisa.png);
+}
+
+.mmarchitecture {
+	background-image: url(mmbw.png);
+}
+
+.mmarchitecture:hover{
+	background-image: url(mm.png);
+}
+
+.hillary {
+	background-image: url(hillarybw.png);
+}
+
+.hillary:hover{
+	background-image: url(hillary.png);
+}
+
+.vague {
+	background-image: url(vgbw.png);
+}
+
+.vague:hover{
+	background-image: url(vg.png);
+}
+
+a {
+	color: inherit;
+}
+
+.captionright {
+	position: absolute;
+	background-color: transparent;
+	height: 180px;
+	width: 300px;
+	left: 290px;
+	top: 30px;
+	font-family: HelveticaNeue;
+	color: white;
+	font-size: 14px;
+	line-height: 140%;
+}
+
+.captionleft {
+	position: absolute;
+	background-color: transparent;
+	height: 180px;
+	width: 300px;
+	left: -365px;
+	top: 40px;
+	font-family: HelveticaNeue;
+	color: white;
+	font-size: 14px;
+	line-height: 140%;
+	
+}
+
+.banner {
+	position: absolute;
+	background-color: transparent;
+	height: 81px;
+	width: 150px;
+	background-image: url(jsymbol.png);
+	left: 0px;
+	top: 50px;
+	color: white;
+
+}
+
+.caption{
+	position: absolute;
+	background-color: transparent;
+	height: 180px;
+	width: 600px;
+	top: 150px;
+	font-family: Flex;
+	color: white;
+	font-size: 27px;
+	line-height: 120%;
+	text-shadow:0px 0px 10px grey;
+}
+
+span {
+	position: absolute;
+	font-size: 50px;
+	padding-left: 188px;
+	text-shadow:0px 0px 30px grey;
+}
